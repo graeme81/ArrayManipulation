@@ -9,8 +9,18 @@ public class Main {
 		
 		int[] answer = runner.manipulate(numArray);
 		
+		System.out.println("the input:");
+		for(int a: numArray) {
+			System.out.print(a+ ", ");
+		}
+		
+		
+		System.out.println("");
+		System.out.println("produces:");
+		
+		
 		for(int a: answer) {
-			System.out.println(a);
+			System.out.print(a+ ", ");
 		}
 
 	}
